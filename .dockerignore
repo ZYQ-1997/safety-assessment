@@ -1,0 +1,17 @@
+# 忽略数据与缓存，减小镜像体积
+*.csv
+**/__pycache__
+__pycache__
+.git
+.gitignore
+outputs/
+
+# 可选：开发/文档类，通常不需要打进镜像
+*.md
+!README.md
+.pytest_cache
+.venv
+venv
+env
+*.pyc
+*.pyo
